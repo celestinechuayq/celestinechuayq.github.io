@@ -1,0 +1,668 @@
+<html>
+	<head>
+		<title>Home | BriskBuddy</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<style>
+		body {
+			 font-family: "Poppins", sans-serif;
+			 font-weight: 400;
+			 color: #616389;
+			 font-size: 14px;
+			 margin: 0px;
+		}
+
+
+		/*************************HEADER*************************/
+
+		.bar {
+				background-color: #F5F5F5;
+				width: 100%;
+			}
+
+		.nav-bar {
+			font-size: 16px;
+			text-decoration: none;
+			font-weight: 700;
+			color: #616389;
+		}
+
+		a:hover {
+			color: #BDD6A5;
+		}
+
+
+		/*************************COVER*************************/
+
+		.container {
+		  position: relative;
+		  height: 800px;
+		  width: 100%;
+		  background-image: url('./images/all-bags-cropped.png');
+		  background-size: cover;
+		  margin: 0px;
+		  padding: 0px;
+		}
+		
+		.title {
+		  	position: absolute;
+		  	bottom: 250px;
+		  	left: 150px;
+		  	font-size: 60px;
+		  	font-weight: 700;
+		}
+
+		.subtitle {
+		  	position: absolute;
+		  	bottom: 200px;
+		  	left: 150px;
+		  	font-size: 24px;
+		  	font-style: italic;
+		}
+
+		.btn1 {
+			position: absolute;
+  			bottom: 100px;
+		  	left: 150px;
+		  	background-color: white;
+		 	border: 2px solid #616389;
+		 	border-radius: 40px;
+		  	color: #616389;
+		  	padding: 15px 32px;
+		  	text-align: center;
+		  	text-decoration: none;
+		  	display: inline-block;
+		  	font-size: 16px;
+		  	font-weight: 700;
+		  	margin: 4px 2px;
+		  	cursor: pointer;
+		}
+
+		.btn1:hover {
+			border: 2px solid white;
+			color: white;
+			background-color: #616389;
+		}
+
+
+		/*************************USP*************************/
+
+		.usp {
+			width: 100%;
+			background-color: #E8FF00;
+			padding:10px 0;
+
+		}
+
+		.usp-text {
+			font-weight: 700;
+			font-size: 16px;
+		}
+
+
+		/*************************PROBLEM*************************/
+
+		.problem {
+			padding-top: 250px;
+			padding-bottom: 250px;
+			background-color: #F5F5F5;
+			background-image: url('./images/changing3.jpg');
+			background-size: cover;
+		}
+
+
+		.sec-title {
+			color: #616389;
+			font-size: 48px;
+
+		}
+
+
+		/************************FEATURES*************************/
+
+		.div {
+			padding-top: 150px;
+			padding-bottom: 150px;
+		}
+
+		.f-div {
+			width: 1250px;
+			margin-top: 60;
+		}
+
+		.box {
+			background-color:#F5F5F5;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-img1 {
+			background-image: url('./images/gymtowel.jpg');
+			background-size: cover;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-img {
+			background-image: url('./images/charcoal.png');
+			background-size: cover;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-img3 {
+			background-image: url('./images/purple2.png');
+			background-size: cover;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-img4 {
+			background-image: url('./images/mesh.jpg');
+			background-size: cover;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-img5 {
+			background-image: url('./images/gymbag1.jpg');
+			background-size: cover;
+   			width:31%;
+   			height: 320px;
+		   	display:inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	vertical-align: top;
+		}
+
+		.box-text {
+			padding-left:50px;
+			padding-right:50px;
+		}
+
+		.btn2 {
+		  	background-color: #616389;
+		 	border: 2px solid #616389;
+		 	border-radius: 40px;
+		  	color: white;
+		  	padding: 15px 32px;
+		  	text-align: center;
+		  	text-decoration: none;
+		  	display: inline-block;
+		  	font-size: 16px;
+		  	font-weight: 700;
+		  	margin: 50px 0px;
+		  	cursor: pointer;
+		}
+
+		.btn2:hover {
+			border: 2px solid #616389;
+			color: #616389;
+			background-color: white;
+		}
+
+
+		/************************COLORS*************************/
+
+		.div2 {
+			padding-top: 0px;
+			padding-bottom: 150px;
+		}
+
+		.c-div {
+			width: 1250px;
+			margin-top: 60;
+		}
+
+		.box-color1 {
+			background-image: url('./images/green1.png');
+			background-size: cover;
+   			width:22%;
+   			height: 480px;
+		   	display: inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	border: 3px solid #F5F5F5;
+		}
+
+		.box-color2 {
+			background-image: url('./images/purple2.png');
+			background-size: cover;
+   			width:22%;
+   			height: 480px;
+		   	display: inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	border: 3px solid #F5F5F5;
+		}
+
+
+		.box-color3 {
+			background-image: url('./images/black1.png');
+			background-size: cover;
+   			width:22%;
+   			height: 480px;
+		   	display: inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	border: 3px solid #F5F5F5;
+		}
+
+		.box-color4 {
+			background-image: url('./images/white1.png');
+			background-size: cover;
+   			width:22%;
+   			height: 480px;
+		   	display: inline-block;
+		   	margin:10px 10;
+		   	border-radius:12px;
+		   	border: 3px solid #F5F5F5;
+		}
+
+
+
+		/************************CTA BANNER*************************/
+
+		.btn3 {
+		  	background-color: #E8FF00;
+		 	border: 2px solid #616389;
+		 	border-radius: 40px;
+		  	color: #616389;
+		  	padding: 15px 32px;
+		  	text-align: center;
+		  	text-decoration: none;
+		  	display: inline-block;
+		  	font-size: 16px;
+		  	font-weight: 700;
+		  	cursor: pointer;
+		}
+
+		.btn3:hover {
+			border: 2px solid #616389;
+			color: #E8FF00;
+			background-color: #616389;
+		}
+
+
+		.cta-banner {
+			font-weight: 700;
+			color: #616389;
+			background-color: #E8FF00;
+			width: 100%;
+			padding:10px 0;
+			margin: 0;
+
+		}
+
+
+
+		/************************REVIEWS*************************/
+
+		.reviews {
+			display: inline-block;
+			width: 20%;
+			padding: 22px;
+			margin: 5px;
+			background-color: #BDD6A5;
+			border-radius:12px;
+			text-align: left;
+			line-height: 25px;
+		}
+
+		.r-title {
+			font-size: 16px;
+			line-height: 20px;
+		}
+
+
+
+		/************************FOOTER*************************/
+
+		.footer {
+				float: left;
+				background-color: #F5F5F5;
+				width: 100%;
+				padding:10px 0;
+				padding-top: 80px;
+				padding-bottom: 20px;			
+			}
+
+
+	</style>
+
+	<script src="https://kit.fontawesome.com/6f22541263.js" crossorigin="anonymous"></script>
+
+	</head>
+
+
+
+
+
+
+	<body>
+		
+		<!-- HEADER -->
+		<div class="bar">
+			<table width ="1440" align ="center" border="0" cellpadding="5" cellspacing="0">
+				<tr>
+					<td align="left" valign="center" width="60px">
+						<a href="home.html"><img src="./images/bb-logo.png" alt="BriskBuddy Logo" width="80"></a>
+					</td>
+					
+					<td align="center" valign="center" height="60px">
+						<a href="product.html" class="nav-bar">BRISKBUDDY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="about.html" class="nav-bar">OUR STORY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+						<a href="blog.html" class="nav-bar">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<a href="sustainability.html" class="nav-bar">SUSTAINABILITY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<a href="faq.html" class="nav-bar">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<a href="contact.html" class="nav-bar">CONTACT</a>
+					</td>
+
+					<td align="right" valign="center" style="padding-right: 10px;">
+						<a href="cart.html"><i class="fa-solid fa-bag-shopping" style="font-size: 30; color: #616389;"></i></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+
+		<!-- COVER -->
+		<div class="container">
+		  <div class="title">BriskBuddy</div>
+		  <div class="subtitle">Say goodbye to odors with the ultimate deodorizer bag</div>
+		  <a href="product.html"><button class="btn1">SHOP NOW</button></a>
+		</div>
+
+
+
+		<!-- USP BANNER -->
+		<div class="usp">
+			<table width ="100%" align="center" border="0" cellpadding="10" cellspacing="0" height="40px">
+				<tr>
+					<td align="center" valign="top" class="usp-text">REFRESHING</td>
+					<td align="center" valign="top" class="usp-text">LIGHTWEIGHT</td>
+					<td align="center" valign="top" class="usp-text">EASY-TO-USE</td>
+					<td align="center" valign="top" class="usp-text">SUSTAINABLE</td>
+				</tr>
+			</table>
+		</div>
+
+
+
+		<!-- PROBLEM -->
+		<div class="problem">
+			<table width ="1200" align ="center" border="0" cellpadding="5" cellspacing="0">
+				<tr>
+					<td align="center" valign="top">
+						<h1 class="sec-title" style="line-height: 0; color: white;">Refresh Your Gym Experience</h1>
+						<p style="font-size: 24; color: white;">Meet the products keeping you clean</p>	
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<!-- FEATURES -->
+		<div class="div">
+			<table width ="1200" align ="center" border="0" cellpadding="5" cellspacing="0">	
+				<tr>
+					<td align="center" valign="top">
+						<table width ="1200" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td align="left" valign="top">
+									<h1 class="sec-title" style="line-height: 10px;">Why <span style="color: #BDD6A5">BriskBuddy?</span></h1>
+								</td>
+							</tr>
+						</table>
+
+						<div class="f-div">
+							<div class="box-img1"></div>
+							
+							<div class="box">
+								<h2 class="box-text" style="margin-top: 85px;">Refresh Your Clothes</h2>
+								<p class="box-text">With activated bamboo charcoal from Japan renowed for its superior odor-absorbing properties, masking and neutralising odors. </p>
+							</div>
+							
+							<div class="box-img"></div>	
+							
+							<div class="box">
+								<h2 class="box-text" style="margin-top: 85px;"> Fight Against <br> Bacteria and Mold</h2>
+								<p class="box-text">Using breathable mesh lining that circulates air for quick drying to <br> prevent humidity.</p>
+							</div>
+
+							<div class="box-img3"></div>
+							
+							<div class="box">
+								<h2 class="box-text" style="margin-top: 90px;">Easy to Use</h2>
+								<p class="box-text">Just pop your clothes and equipment in the bag! Place it in direct sunlight to recharge it. </p>
+							</div>
+							
+							<div class="box-img4"></div>
+							
+							<div class="box">
+								<h2 class="box-text" style="margin-top: 95px;">Durable</h2>
+								<p class="box-text">Reusable for up to 2 years <br> with appropriate care.</p>
+							</div>
+
+							<div class="box-img5"></div>			
+						</div>
+						
+						<div>
+							<a href="product.html"><button class="btn2">LEARN MORE</button></a>
+						</div>
+					
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<!-- COLORS -->
+		<div class="div2">
+		<table width ="1200" align ="center" border="0" cellpadding="5" cellspacing="0">
+			<tr>
+				<td align="center" valign="top">
+						<table width ="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td align="left" valign="top">
+									<h1 class="sec-title" style="line-height: 10px;">Tailored For You</h1>
+									<p>Colours for all personalities.</p>
+								</td>
+							</tr>
+						</table>
+						
+						<div class="c-div">
+								<a href="product.html"><div class="box-color1"></div></a>
+								<a href="product.html"><div class="box-color2"></div></a>
+								<a href="product.html"><div class="box-color3"></div></a>
+								<a href="product.html"><div class="box-color4"></div></a>
+						</div>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+
+		
+		<!-- CTA BANNER -->
+			<div class="cta-banner">
+					<table width ="1200" align="center" border="0" cellpadding="10" cellspacing="0" height="40px">
+						<tr>
+								<td align="left" valign="center">
+									<h3 style="margin: 0;">BUNDLE UP WITH A BUDDY AND GET 15% OFF 2 BAGS WITH [BUDDY15] </h3>
+								</td>
+								<td align="right" valign="top">
+									<a href="product.html"><button class="btn3">SHOP NOW</button></a>
+								</td>
+						</tr>
+					</table>
+			</div>
+
+
+		<!-- REVIEWS -->
+		<table width ="1200" align ="center" border="0" cellpadding="5" cellspacing="0">
+			<tr>
+				<td align="center" valign="top">
+					<div class="div">
+						
+						<table width ="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top: 50px;">
+							<tr>
+								<td align="left" valign="top">
+									<h1 class="sec-title" style="line-height: 10px;">Reviews</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</td>
+							</tr>
+						</table>
+
+					<div style="padding: 50px 0px; margin: auto;">
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">Brisk Buddy makes my DAY! Absolutely love it.</h2>
+    						<p style="font-style: italic; margin: 0;">John Chia, 21</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">If you go to the gym or do sports, YOU. NEED. THIS.</h2>
+    						<p style="font-style: italic; margin: 0;">Jane Lim, 19</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">Love this gym bag—fits all my gear and looks great!</h2>
+    						<p style="font-style: italic; margin: 0;">Amy Chin, 23</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">Best deo bag I've ever owned—durable and functional.</h2>
+    						<p style="font-style: italic; margin: 0;">Daniel Chua, 24</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">I use it for my wrist straps and they FINALLY don't stink!</h2>
+    						<p style="font-style: italic; margin: 0;">Marcus Ng, 23</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">As a person who sweats alot... this was a life saviour.</h2>
+    						<p style="font-style: italic; margin: 0;">Lester Tan, 21</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">The designs!! Now I always look forward to the gym!</h2>
+    						<p style="font-style: italic; margin: 0;">Sarah Andreana, 22</p>
+						</div>
+						<div class="reviews">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<h2 class="r-title">Perfect deo bag for workouts and my weekend trips.</h2>
+    						<p style="font-style: italic; margin: 0;">Rayne Yeo, 25</p>
+						</div>						
+					</div>
+
+					<a href="product.html"><button class="btn2" style="margin-top: 50px;">GET MY BRISKBUDDY</button></a>
+
+				</div>
+			</td>
+		</table>
+		
+
+
+		<!-- FOOTER -->
+
+		<div class="footer">
+			<table width ="1200" border="0" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td align="left" valign="top" width="300">
+						<img src="./images/bb-logo.png" alt="BriskBuddy Logo" width="200">
+					</td>
+					
+					<td align="left" valign="top">
+						<table width ="100%" border="0" cellpadding="10" cellspacing="0">
+						<tr>
+							<td align="left" valign="top" width="180">
+							<h2>More About Us</h2>
+						</td>
+						</tr>
+						<tr>
+							<td align="left" valign="top"><a href="home.html" class="nav-bar">HOME</a></td>
+							<td align="left" valign="top"><a href="product.html" class="nav-bar">BRISKBUDDY</a></td>
+							<td align="left" valign="top"><a href="about.html" class="nav-bar">OUR STORY</a></td>
+							<td align="left" valign="top"><a href="blog.html" class="nav-bar">BLOG</a></td>
+						</tr>
+						<tr>
+							<td align="left" valign="top"><a href="sustainability.html" class="nav-bar">SUSTAINABILITY</a></td>
+							<td align="left" valign="top"><a href="faq.html" class="nav-bar">FAQ</a></td>
+							<td align="left" valign="top"><a href="contact.html" class="nav-bar">CONTACT</a></td>
+							<td align="left" valign="top"><a href="pp.html" class="nav-bar">PRIVACY POLICY</a></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table width ="1200" border="0" cellpadding="0" cellspacing="0" align="center" style="margin-top: 60;">
+				<tr>
+					<td align="center" valign="top">
+						<p style="font-size: 12;">Copyright © 2024, BriskBuddy, All Rights Reserved</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+	</body>
+</html>
